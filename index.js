@@ -6,6 +6,6 @@ app.get('/test', (req, res) => {
     res.json({ foo: 'bar' })
 })
 
-app.listen(5000, () => {
-    console.log('Server running on port 5000')
+app.listen(5500, () => {
+    console.log('Server running on port 5500')
 })
